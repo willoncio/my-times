@@ -1,0 +1,174 @@
+header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid black;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+}
+/* No z-index inserted on the header */
+
+/* Header */
+.logo {
+  display: flex;
+  padding-left: 30px;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo span  {
+  color: MediumAquamarine;
+  margin-left: 12px;
+}
+
+nav {
+  display: flex;
+  margin-right: 30px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 10px;
+}
+
+nav a {
+  color: black;
+}
+
+body {
+  margin: 0;
+}
+
+
+/* Box for all divs
+div {
+  border: 2px solid gray;
+}
+*/
+
+div.main-container {
+  display: flex;
+
+}
+
+/* Columns */
+
+.column {
+  padding-top: 80px;
+  margin: 0 auto 78px auto;
+  display: flex;
+
+}
+
+.column .large {
+  width: 630px;
+}
+
+.column .medium {
+  width: 300px;
+}
+
+.column .small {
+  width: 240px;
+}
+
+.large, .medium, .small {
+  margin-right: 32px;
+  margin-top: 32px;
+}
+
+/* Images */
+
+
+.image {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  text-align: center;
+}
+
+.story1 .image {
+  background-image: url("../resources/img-story-main.png");
+  height: 300px;
+  font-size: 40px;
+  text-align: left;
+}
+
+.story2 .image {
+  background-image: url("../resources/img-story-2.png");
+  justify-content: center;
+}
+
+.story3 .image {
+  background-image: url("../resources/img-story-3.png");
+}
+
+.story4 .image {
+  background-image: url("../resources/img-story-1.png");
+}
+
+/* Text on column */
+
+
+.column {
+  font-family: Georgia;
+  font-size: 15px;
+  color: black;
+}
+
+/* Flexible divs */
+
+.stories {
+  display: flex;
+  margin: 17px;
+  justify-content: space-between;
+
+}
+
+.story2 {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+
+}
+
+.story3 {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+
+}
+
+/* Bites section */
+
+.news-bites .bite {
+  display: block;
+  padding: 11px 20px;
+  border-bottom: 1px solid black;
+  background-color: WhiteSmoke;
+  font-size: 12px;
+  color: DimGray;
+}
+
+
+.small {
+  display: flex;
+  flex-direction: column;
+}
+
+.news-bites h3 {
+  margin-bottom: 41px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+
+}
