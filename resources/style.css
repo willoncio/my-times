@@ -129,7 +129,7 @@ div.main-container {
 .stories {
   display: flex;
   margin: 17px;
-  justify-content: space-between;
+
 
 }
 
@@ -138,12 +138,14 @@ div.main-container {
   flex-direction: column;
   width: 300px;
 
+
 }
 
 .story3 {
   display: flex;
   flex-direction: column;
   width: 300px;
+
 
 }
 
@@ -171,4 +173,40 @@ div.main-container {
     text-align: center;
     justify-content: center;
 
+}
+
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 325px;
+  width: 100%;
+  flex-direction: column;
+}
+
+.footer-title .title {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 25px;
+  border-right: 2px solid white;
+  display: inline-block;
+}
+
+footer nav {
+  padding-left: 25px;
+  color: black;
+  display: inline-block;
+}
+
+footer nav span {
+  padding: 20px 10px;
 }
